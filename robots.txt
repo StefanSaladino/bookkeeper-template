@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.northledger.ca/sitemap.xml
+Sitemap: https://stefansaladino.github.io/bookkeeper-template/sitemap.xml

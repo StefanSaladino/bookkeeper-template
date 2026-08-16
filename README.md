@@ -1,10 +1,22 @@
 # North Ledger Bookkeeping Website
 
-A responsive, mobile-first bookkeeping website built with standard HTML, CSS, and JavaScript. It has no framework or build step.
+A responsive, mobile-first bookkeeping website built with standard HTML, CSS, and JavaScript. It has no framework or production build step.
+
+## GitHub Pages preview
+
+The repository is configured to deploy automatically from `main` with GitHub Actions:
+
+`https://stefansaladino.github.io/bookkeeper-template/`
+
+All internal routes, assets, canonical URLs, structured data, the social card, `robots.txt`, and the sitemap are configured for the `/bookkeeper-template/` repository subpath.
 
 ## Preview locally
 
-Serve this folder with any static web server so the clean resource and privacy URLs resolve correctly.
+Serve this folder from the repository root with any static web server so the clean resource and privacy URLs resolve correctly. The included validation script checks the GitHub Pages subpath:
+
+```bash
+node scripts/validate-site.mjs
+```
 
 ## Replace before launch
 
@@ -51,5 +63,7 @@ The demonstration form validates in the browser and displays a confirmation mess
 - `assets/js/script.js` — menu, FAQ, reveal animation, form demo, and footer year
 - `og-card.svg` — social sharing card
 - `robots.txt` and `sitemap.xml` — search engine discovery files
-- `_headers` — security and caching headers
+- `_headers` — optional security and caching headers for compatible hosts; GitHub Pages does not apply this file
 - `404.html` — custom not-found page
+- `.github/workflows/deploy-pages.yml` — automated GitHub Pages deployment
+- `scripts/validate-site.mjs` — dependency-free route and metadata regression check

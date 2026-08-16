@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.northledger.ca/</loc>
+    <loc>https://stefansaladino.github.io/bookkeeper-template/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.northledger.ca/resources/monthly-bookkeeping-checklist/</loc>
+    <loc>https://stefansaladino.github.io/bookkeeper-template/resources/monthly-bookkeeping-checklist/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.northledger.ca/resources/five-numbers-to-review/</loc>
+    <loc>https://stefansaladino.github.io/bookkeeper-template/resources/five-numbers-to-review/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.northledger.ca/resources/catch-up-bookkeeping-guide/</loc>
+    <loc>https://stefansaladino.github.io/bookkeeper-template/resources/catch-up-bookkeeping-guide/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.northledger.ca/privacy/</loc>
+    <loc>https://stefansaladino.github.io/bookkeeper-template/privacy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
