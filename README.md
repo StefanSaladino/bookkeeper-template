@@ -4,7 +4,7 @@ A responsive, mobile-first bookkeeping website built with standard HTML, CSS, an
 
 ## Preview locally
 
-Open `index.html` directly, or serve this folder with any static web server.
+Serve this folder with any static web server so the clean resource and privacy URLs resolve correctly.
 
 ## Replace before launch
 
@@ -20,6 +20,8 @@ Search the project for these placeholders:
 
 Update the same business information in the JSON-LD schema inside `index.html`, plus `robots.txt` and `sitemap.xml`. Replace the stylized CSS portrait with an authentic professional photo when one is available.
 
+The privacy policy is substantive and based on a Canadian bookkeeping-service context, but the owner must confirm that its actual vendors, security practices, retention periods, contact details, marketing practices, and cross-border processing match the policy. Obtain legal review before treating it as final legal advice.
+
 ## Contact form
 
 The demonstration form validates in the browser and displays a confirmation message, but it intentionally does not send or store submissions. Connect it to the host's form service, a serverless function, or the client's CRM before launch, then update the privacy copy.
@@ -31,6 +33,8 @@ The demonstration form validates in the browser and displays a confirmation mess
 - Open Graph and X/Twitter metadata
 - Custom social sharing card
 - Local Business, Accounting Service, Person, Website, and FAQ structured data
+- Three complete, indexable bookkeeping resource articles with Article structured data
+- Dedicated privacy policy with access, consent, retention, safeguarding, service-provider, cookie, complaint, and CASL-related disclosures
 - `robots.txt` and `sitemap.xml`
 - Semantic headings and landmarks
 - Fast, dependency-free source
@@ -41,6 +45,8 @@ The demonstration form validates in the browser and displays a confirmation mess
 ## Project structure
 
 - `index.html` — page content and SEO metadata
+- `resources/` — three complete bookkeeping resource articles
+- `privacy/index.html` — dedicated privacy policy
 - `assets/css/styles.css` — complete responsive design system
 - `assets/js/script.js` — menu, FAQ, reveal animation, form demo, and footer year
 - `og-card.svg` — social sharing card

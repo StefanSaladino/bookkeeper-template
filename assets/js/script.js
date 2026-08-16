@@ -56,19 +56,21 @@
 
   var form = document.querySelector('#consultation-form');
   var formStatus = document.querySelector('#form-status');
-  form.addEventListener('submit', function (event) {
-    event.preventDefault();
-    if (!form.checkValidity()) {
-      form.reportValidity();
-      return;
-    }
-    var firstName = form.querySelector('#first-name').value.trim();
-    formStatus.textContent = 'Thanks' + (firstName ? ', ' + firstName : '') + '. This demo form is ready to connect to your preferred inbox or CRM.';
-    form.reset();
-  });
+  if (form) {
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      var firstName = form.querySelector('#first-name').value.trim();
+      formStatus.textContent = 'Thanks' + (firstName ? ', ' + firstName : '') + '. This demo form is ready to connect to your preferred inbox or CRM.';
+      form.reset();
+    });
+  }
 
   var year = document.querySelector('#year');
-  year.textContent = String(new Date().getFullYear());
+  if (year) year.textContent = String(new Date().getFullYear());
 
   document.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') closeMenu();
