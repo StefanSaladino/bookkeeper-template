@@ -1,4 +1,4 @@
-# North Ledger Bookkeeping Website
+# Williams & Williams Accounting Solutions Website
 
 A responsive, mobile-first bookkeeping website built with standard HTML, CSS, and JavaScript. It has no framework or production build step.
 
@@ -18,19 +18,22 @@ Serve this folder from the repository root with any static web server so the cle
 node scripts/validate-site.mjs
 ```
 
-## Replace before launch
+## Confirmed business information
 
-Search the project for these placeholders:
+- `Williams & Williams Accounting Solutions Inc.`
+- `Renee Williams`
+- `williamsasinc@gmail.com`
+- `647-673-9326`
 
-- `North Ledger Bookkeeping`
-- `Maya Bennett`
-- `hello@northledger.ca`
-- `647-555-0148`
-- `https://www.northledger.ca/`
-- `123 King Street West, Suite 400`
-- Placeholder credentials, testimonial, results, and financial figures
+## Confirm before launch
 
-Update the same business information in the JSON-LD schema inside `index.html`, plus `robots.txt` and `sitemap.xml`. Replace the stylized CSS portrait with an authentic professional photo when one is available.
+- Service scope, software support and pricing approach
+- Credentials, testimonials, results and financial examples
+- Service area and any physical business address
+- An authentic professional photo of Renee, if desired
+- The final production domain for canonical URLs, structured data, `robots.txt` and `sitemap.xml`
+
+The current canonical URLs intentionally use the GitHub Pages preview address. Replace them when a production domain is selected.
 
 The privacy policy is substantive and based on a Canadian bookkeeping-service context, but the owner must confirm that its actual vendors, security practices, retention periods, contact details, marketing practices, and cross-border processing match the policy. Obtain legal review before treating it as final legal advice.
 
